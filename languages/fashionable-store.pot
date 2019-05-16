@@ -1,0 +1,1016 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Atlast Business theme\n"
+"POT-Creation-Date: 2018-02-16 17:20+0200\n"
+"PO-Revision-Date: 2018-02-16 17:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: https://akisthemes.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr ""
+
+#: attachment.php:8
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: author.php:5
+msgid "Author Archives"
+msgstr ""
+
+#: comments.php:10
+msgid "on "
+msgstr ""
+
+#: comments.php:34
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:34
+msgid "Trackback"
+msgstr ""
+
+#: functions.php:48
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Main sidebar"
+msgstr ""
+
+#: functions.php:129
+msgid " The main sidebar."
+msgstr ""
+
+#: functions.php:138
+msgid "Top Bar Sidebar"
+msgstr ""
+
+#: functions.php:139
+msgid "Sidebar at the top bar"
+msgstr ""
+
+#: functions.php:148
+msgid "Team Member sidebar"
+msgstr ""
+
+#: functions.php:149
+msgid "This sidebar appears only in the single team member page."
+msgstr ""
+
+#: functions.php:159
+msgid "Footer sidebar"
+msgstr ""
+
+#: functions.php:160
+msgid " This sidebar appears in the footer. You can use the customizer to select the layout this sidebar"
+msgstr ""
+
+#: functions.php:227
+msgid "Edit this comment"
+msgstr ""
+
+#: functions.php:292 includes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:293 includes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:295 includes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:297 includes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions.php:298 includes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:350 includes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:351 includes/class-tgm-plugin-activation.php:387
+#: includes/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:352 includes/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions.php:354 includes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions.php:356 includes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: functions.php:358 includes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions.php:359 includes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions.php:360 includes/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: functions.php:361 includes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:386
+#: includes/class-tgm-plugin-activation.php:827
+#: includes/class-tgm-plugin-activation.php:2533
+#: includes/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+#: includes/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:8
+msgid "Please add widgets here."
+msgstr ""
+
+#: template-parts/content/archive/archive-style-1.php:16
+#: template-parts/content/blog-style-1.php:15
+#: template-parts/content/blog-style-2.php:23
+#: template-parts/content/blog/blog-style-1.php:15
+#: template-parts/content/blog/blog-style-2.php:23
+#: template-parts/content/category/category-style-1.php:16
+#: template-parts/content/search/search-style-1.php:16
+#: template-parts/content/tag/tag-style-1.php:16
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content/content-elements/meta.php:7
+#: template-parts/content/content-elements/titles/single-major-title.php:19
+msgid "by "
+msgstr ""
+
+#: template-parts/content/content-elements/meta.php:8
+#: template-parts/content/content-elements/titles/single-major-title.php:20
+msgid "on"
+msgstr ""
+
+#: template-parts/content/content-elements/pagination/nav-below.php:6
+#, php-format
+msgid " %s Previous posts"
+msgstr ""
+
+#: template-parts/content/content-elements/pagination/nav-below.php:11
+#, php-format
+msgid "Next posts %s"
+msgstr ""
+
+#: template-parts/content/content-elements/titles/category-major-title.php:5
+msgid "Posts in: "
+msgstr ""
+
+#: template-parts/content/content-elements/titles/search-major-title.php:5
+msgid "You searched for: "
+msgstr ""
+
+#: template-parts/content/content-elements/titles/tag-major-title.php:5
+msgid "Tag: "
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:9
+msgid "Atlast Business Theme"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:9
+msgid " by "
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:11
+msgid "akisthemes.com"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:2
+#: template-parts/header/header-elements/social-menu.php:12
+msgid "Visit us on Facebook"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:6
+#: template-parts/header/header-elements/social-menu.php:19
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:8
+#: template-parts/header/header-elements/social-menu.php:24
+msgid "View our Google+ profile"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:10
+#: template-parts/header/header-elements/social-menu.php:30
+msgid "View our Linkedin profile"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:12
+#: template-parts/header/header-elements/social-menu.php:34
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: template-parts/custom-pages/homepage/blog/blog-style-1.php:23
+msgid "Read More"
+msgstr ""
+
+#: theme-init/init.php:20
+msgid "Add a Menu"
+msgstr ""
+
+#: theme-init/init.php:63 theme-init/init.php:868
+msgid "The MOST complete FREE WordPress Theme. Do it like a PRO."
+msgstr ""
+
+#: theme-init/init.php:70 theme-init/init.php:874
+msgid "Download Now"
+msgstr ""
+
+#: theme-init/init.php:76
+msgid "View Great Features"
+msgstr ""
+
+#: theme-init/init.php:114
+msgid "Atlast Business Homepage Layout"
+msgstr ""
+
+#: theme-init/init.php:115
+msgid "Set the sections you like, reorder them and you are set to go."
+msgstr ""
+
+#: theme-init/init.php:124
+msgid "About section"
+msgstr ""
+
+#: theme-init/init.php:125
+msgid "The about section of the homepage."
+msgstr ""
+
+#: theme-init/init.php:148 theme-init/init.php:292 theme-init/init.php:461
+#: theme-init/init.php:630
+msgid "A simple subtitle."
+msgstr ""
+
+#: theme-init/init.php:149 theme-init/init.php:293
+msgid "A simple subtitle that shows under the title in the frontpage."
+msgstr ""
+
+#: theme-init/init.php:156
+msgid "Select the page to show in the about section."
+msgstr ""
+
+#: theme-init/init.php:157
+msgid "Do not forget to add a featured image as well."
+msgstr ""
+
+#: theme-init/init.php:167
+msgid "Services section"
+msgstr ""
+
+#: theme-init/init.php:168
+msgid "The services section of the homepage."
+msgstr ""
+
+#: theme-init/init.php:187
+msgid "Tailor made solutions for every client. We specialize in.."
+msgstr ""
+
+#: theme-init/init.php:194
+msgid "Our Services"
+msgstr ""
+
+#: theme-init/init.php:276 theme-init/init.php:446 theme-init/init.php:532
+#: theme-init/init.php:615 theme-init/init.php:696
+msgid "Enable this section."
+msgstr ""
+
+#: theme-init/init.php:284 theme-init/init.php:453 theme-init/init.php:622
+msgid "A simple title."
+msgstr ""
+
+#: theme-init/init.php:285 theme-init/init.php:454 theme-init/init.php:540
+#: theme-init/init.php:623 theme-init/init.php:704
+msgid "A simple title for this section."
+msgstr ""
+
+#: theme-init/init.php:301
+msgid "Select the first service"
+msgstr ""
+
+#: theme-init/init.php:308
+msgid "Select the second service"
+msgstr ""
+
+#: theme-init/init.php:315
+msgid "Select the third service"
+msgstr ""
+
+#: theme-init/init.php:322
+msgid "Select the fourth service"
+msgstr ""
+
+#: theme-init/init.php:329
+msgid "Select the fifth service"
+msgstr ""
+
+#: theme-init/init.php:336
+msgid "Select the sixth service"
+msgstr ""
+
+#: theme-init/init.php:343
+msgid "Select the class name for the first service"
+msgstr ""
+
+#: theme-init/init.php:344 theme-init/init.php:352 theme-init/init.php:360
+#: theme-init/init.php:368 theme-init/init.php:376 theme-init/init.php:384
+msgid "Read the docs to learn how to use this field"
+msgstr ""
+
+#: theme-init/init.php:351
+msgid "Select the class name for the second service"
+msgstr ""
+
+#: theme-init/init.php:359
+msgid "Select the class name for the third service"
+msgstr ""
+
+#: theme-init/init.php:367
+msgid "Select the class name for the fourth service"
+msgstr ""
+
+#: theme-init/init.php:375
+msgid "Select the class name for the fifth service"
+msgstr ""
+
+#: theme-init/init.php:383
+msgid "Select the class name for the sixth service"
+msgstr ""
+
+#: theme-init/init.php:395
+msgid "Projects section"
+msgstr ""
+
+#: theme-init/init.php:396
+msgid "The projects section of the homepage."
+msgstr ""
+
+#: theme-init/init.php:406
+msgid "Our Projects"
+msgstr ""
+
+#: theme-init/init.php:412
+msgid "Start your next project with us"
+msgstr ""
+
+#: theme-init/init.php:462 theme-init/init.php:548 theme-init/init.php:631
+#: theme-init/init.php:712
+msgid "A simple subtitle that shows under the title in that section."
+msgstr ""
+
+#: theme-init/init.php:469
+msgid "Select the first project"
+msgstr ""
+
+#: theme-init/init.php:475
+msgid "Select the second project"
+msgstr ""
+
+#: theme-init/init.php:482
+msgid "Select the third project"
+msgstr ""
+
+#: theme-init/init.php:489
+msgid "Select the fourth project"
+msgstr ""
+
+#: theme-init/init.php:500
+msgid "Gallery section"
+msgstr ""
+
+#: theme-init/init.php:501
+msgid "The Gallery section of the homepage. Use the Foogallery plugin to show your gallery."
+msgstr ""
+
+#: theme-init/init.php:511
+msgid "Great Galleries"
+msgstr ""
+
+#: theme-init/init.php:517
+msgid "One picture is worth a thousand words"
+msgstr ""
+
+#: theme-init/init.php:539
+msgid "Add a section title."
+msgstr ""
+
+#: theme-init/init.php:547
+msgid "Add a section subtitle."
+msgstr ""
+
+#: theme-init/init.php:555
+msgid "Select the gallery page."
+msgstr ""
+
+#: theme-init/init.php:565
+msgid "Team section"
+msgstr ""
+
+#: theme-init/init.php:566
+msgid "The team section of the homepage."
+msgstr ""
+
+#: theme-init/init.php:577
+msgid "Meet our team"
+msgstr ""
+
+#: theme-init/init.php:583
+msgid "Our team of experts at your service"
+msgstr ""
+
+#: theme-init/init.php:638
+msgid "Select the first member"
+msgstr ""
+
+#: theme-init/init.php:645
+msgid "Select the second member"
+msgstr ""
+
+#: theme-init/init.php:652
+msgid "Select the third member"
+msgstr ""
+
+#: theme-init/init.php:659
+msgid "Select the fourth member"
+msgstr ""
+
+#: theme-init/init.php:669 theme-init/init.php:759
+msgid "Blog section"
+msgstr ""
+
+#: theme-init/init.php:670
+msgid "The blog section of the homepage."
+msgstr ""
+
+#: theme-init/init.php:681
+msgid "Latest from the blog"
+msgstr ""
+
+#: theme-init/init.php:687
+msgid "Valuable articles and news!"
+msgstr ""
+
+#: theme-init/init.php:703
+msgid "A a section title"
+msgstr ""
+
+#: theme-init/init.php:711
+msgid "Add a section subtitle"
+msgstr ""
+
+#: theme-init/init.php:722
+msgid "Atlast Business Options"
+msgstr ""
+
+#: theme-init/init.php:723
+msgid "You have made till the options! Just set the options you like and you are ready to go."
+msgstr ""
+
+#: theme-init/init.php:733
+msgid "Homepage section"
+msgstr ""
+
+#: theme-init/init.php:734
+msgid "Set the homepage layout easily"
+msgstr ""
+
+#: theme-init/init.php:741
+msgid "Top Bar section"
+msgstr ""
+
+#: theme-init/init.php:750
+msgid "Header section"
+msgstr ""
+
+#: theme-init/init.php:768
+msgid "Single Post section"
+msgstr ""
+
+#: theme-init/init.php:769
+msgid "Some settings that apply to all single posts"
+msgstr ""
+
+#: theme-init/init.php:777
+msgid "Social section"
+msgstr ""
+
+#: theme-init/init.php:786
+msgid "Footer section"
+msgstr ""
+
+#: theme-init/init.php:795
+msgid "Copyright section"
+msgstr ""
+
+#: theme-init/init.php:819
+msgid "Do you want to enable the top bar?"
+msgstr ""
+
+#: theme-init/init.php:820
+msgid "Show off or not?"
+msgstr ""
+
+#: theme-init/init.php:822 theme-init/init.php:929 theme-init/init.php:941
+msgid "No"
+msgstr ""
+
+#: theme-init/init.php:823 theme-init/init.php:930 theme-init/init.php:942
+msgid "Yes"
+msgstr ""
+
+#: theme-init/init.php:831
+msgid "Select the possible layouts"
+msgstr ""
+
+#: theme-init/init.php:832
+msgid "Choose among the different layouts"
+msgstr ""
+
+#: theme-init/init.php:834
+msgid "Menu + Widget area"
+msgstr ""
+
+#: theme-init/init.php:835
+msgid "Just Widget Area"
+msgstr ""
+
+#: theme-init/init.php:885
+msgid "Great Features"
+msgstr ""
+
+#: theme-init/init.php:900
+msgid "Select header (contains the navigation) style"
+msgstr ""
+
+#: theme-init/init.php:901 theme-init/init.php:1151
+msgid "There are more than one to choose from. Please refer to the documentation to view the available layouts."
+msgstr ""
+
+#: theme-init/init.php:903 theme-init/init.php:1008 theme-init/init.php:1153
+msgid "Style 1"
+msgstr ""
+
+#: theme-init/init.php:904 theme-init/init.php:1009 theme-init/init.php:1154
+msgid "Style 2"
+msgstr ""
+
+#: theme-init/init.php:905 theme-init/init.php:1155
+msgid "Style 3"
+msgstr ""
+
+#: theme-init/init.php:914
+msgid "Do you want the header image to appear to all pages / posts etc?"
+msgstr ""
+
+#: theme-init/init.php:915
+msgid "If this is a \"No\" the header image (if any) will appear only to the homepage and the static front page."
+msgstr ""
+
+#: theme-init/init.php:917
+msgid "No - Only Front"
+msgstr ""
+
+#: theme-init/init.php:918
+msgid "Yes, everywhere"
+msgstr ""
+
+#: theme-init/init.php:926
+msgid "Stick the header at the top."
+msgstr ""
+
+#: theme-init/init.php:927
+msgid "Enable this to set the main navigation fixed during the page scroll."
+msgstr ""
+
+#: theme-init/init.php:938
+msgid "Transparent header"
+msgstr ""
+
+#: theme-init/init.php:939
+msgid "This applies only to Style 1 of the header area."
+msgstr ""
+
+#: theme-init/init.php:950
+msgid "Header heading text"
+msgstr ""
+
+#: theme-init/init.php:957
+msgid "Button 1 text"
+msgstr ""
+
+#: theme-init/init.php:958
+msgid "Add the text of the button 1"
+msgstr ""
+
+#: theme-init/init.php:965
+msgid "Button 1 URL"
+msgstr ""
+
+#: theme-init/init.php:966 theme-init/init.php:983
+msgid "Starting with http:// or https://"
+msgstr ""
+
+#: theme-init/init.php:974
+msgid "Button 2 text"
+msgstr ""
+
+#: theme-init/init.php:975
+msgid "Add the text of the button 2"
+msgstr ""
+
+#: theme-init/init.php:982
+msgid "Button 2 URL"
+msgstr ""
+
+#: theme-init/init.php:1005
+msgid "Select blog layout."
+msgstr ""
+
+#: theme-init/init.php:1006
+msgid "You can select the blog list page layout."
+msgstr ""
+
+#: theme-init/init.php:1017
+msgid "Blog item excerpt length."
+msgstr ""
+
+#: theme-init/init.php:1018
+msgid "Custom excerpt length. Default is 55 words. You can't have 0 as number"
+msgstr ""
+
+#: theme-init/init.php:1033
+msgid "Select single post layout."
+msgstr ""
+
+#: theme-init/init.php:1034
+msgid "You can select the single post layout."
+msgstr ""
+
+#: theme-init/init.php:1036
+msgid "Style 1 - default"
+msgstr ""
+
+#: theme-init/init.php:1037
+msgid "Style 2 - Title and meta at the top"
+msgstr ""
+
+#: theme-init/init.php:1038
+msgid "Full Width Posts with no sidebar"
+msgstr ""
+
+#: theme-init/init.php:1077
+msgid "Facebook URL"
+msgstr ""
+
+#: theme-init/init.php:1078
+msgid "Add your Facebook URL with https:// in front."
+msgstr ""
+
+#: theme-init/init.php:1085
+msgid "Twitter URL"
+msgstr ""
+
+#: theme-init/init.php:1086 theme-init/init.php:1094
+msgid "Add your Twitter URL with https:// in front."
+msgstr ""
+
+#: theme-init/init.php:1093
+msgid "Google Plus URL"
+msgstr ""
+
+#: theme-init/init.php:1101
+msgid "Linkedin URL"
+msgstr ""
+
+#: theme-init/init.php:1102
+msgid "Add your Linkedin URL with https:// in front."
+msgstr ""
+
+#: theme-init/init.php:1109
+msgid "Instagram URL"
+msgstr ""
+
+#: theme-init/init.php:1110
+msgid "Add your Instagram URL with https:// in front."
+msgstr ""
+
+#: theme-init/init.php:1124
+msgid "Select the footer(widget area) layout"
+msgstr ""
+
+#: theme-init/init.php:1125
+msgid "You can have boxed and full width layout."
+msgstr ""
+
+#: theme-init/init.php:1127
+msgid "Boxed"
+msgstr ""
+
+#: theme-init/init.php:1128
+msgid "Full width"
+msgstr ""
+
+#: theme-init/init.php:1150
+msgid "Select the copyright section style"
+msgstr ""
+
+#: theme-init/init.php:1156
+msgid "Style 4"
+msgstr ""
+
+#: theme-init/init.php:1164
+msgid "Copyright"
+msgstr ""
+
+#: theme-init/init.php:1165
+msgid "Add your copyright text here. You can use this text with the available copyright layouts."
+msgstr ""
+
+#: theme-init/init.php:1302 theme-init/init.php:1304 theme-init/init.php:1306
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: theme-init/init.php:1308
+msgid "Blog Archives"
+msgstr ""
