@@ -2,7 +2,7 @@
 $prefix = fashionable_store_get_prefix();
 $sectionOnePageID = absint(get_theme_mod($prefix . '_section_three_content', ''));
 if ($sectionOnePageID != 0):
-    $section_one_page = get_post($sectionOnePageID);
+    $section_three_page = get_post($sectionOnePageID);
     $sectionThreeColor = sanitize_hex_color(get_theme_mod($prefix.'_section_three_bg_color',''));
     ?>
     <div id="home-section-three" class="home-section-three-wrapper" <?php echo ( !empty($sectionThreeColor) ? 'style=background-color:'.$sectionThreeColor.';' : ''); ?>>
@@ -21,7 +21,7 @@ if ($sectionOnePageID != 0):
                 <div class="column col-12">
                     <div class="home-section-three-page-content">
                         <?php
-                        $post = setup_postdata($sectionOnePageID);
+                        setup_postdata($section_three_page);
                         the_content();
                         wp_reset_postdata();
                         ?>

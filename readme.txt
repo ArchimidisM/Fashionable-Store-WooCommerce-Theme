@@ -1,8 +1,9 @@
 === Fashionable Store WordPress Theme ===
 Contributors: ArchimidisM
 Requires at least: WordPress 4.5.1
-Tested up to: WordPress 5.1.1
-Version: 1.2.0
+Tested up to: WordPress 5.4.1
+Version: 1.3.1
+Required PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce theme-options,full-width-template,two-columns, custom-header, custom-background,custom-logo, custom-menu,flexible-header,translation-ready, featured-images
@@ -130,6 +131,18 @@ https://www.freepik.com/free-vector/multicolor-geometrical-shapes-background_116
 The main menu supports up to 3 navigation levels.
 
 == Change Log ==
+
+= Version 1.3.1 =
+- WooCommerce 4.2.2 compatible
+- [Fix]: Removed the WooCommerce Text Domain from the theme folder.
+- [Enhancement]: Added a close icon to the side navigation in mobile views.
+
+
+= Version 1.3.0 =
+- WooCommerce 4.2 compatible
+- Fixing the blank homepage issue after updating to WordPress 5.4.1
+- Latest Smart Slider compatible
+- Latest Max Megamenu compatible
 
 = Version 1.2.0 =
 - WooCommerce 3.6.1 Compatible

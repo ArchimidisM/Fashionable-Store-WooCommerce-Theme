@@ -21,7 +21,7 @@ if ($sectionOnePageID != 0):
                 <div class="column col-12">
                     <div class="home-section-one-page-content">
                         <?php
-                        $post = setup_postdata($sectionOnePageID);
+                        setup_postdata($section_one_page);
                         the_content();
                         wp_reset_postdata();
                         ?>

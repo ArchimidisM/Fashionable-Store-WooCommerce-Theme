@@ -2,7 +2,7 @@
 $prefix         = fashionable_store_get_prefix();
 $sectionOnePageID = absint( get_theme_mod( $prefix . '_section_two_content', '' ) );
 if ( $sectionOnePageID != 0 ):
-    $section_one_page = get_post($sectionOnePageID);
+    $section_two_page = get_post($sectionOnePageID);
 	$sectionTwoColor = sanitize_hex_color(get_theme_mod($prefix.'_section_two_bg_color',''));
     ?>
     <div id="home-section-two" class="home-section-two-wrapper"  <?php echo ( !empty($sectionTwoColor) ? 'style=background-color:'.$sectionTwoColor.';' : ''); ?>>
@@ -21,7 +21,7 @@ if ( $sectionOnePageID != 0 ):
                 <div class="column col-12">
                     <div class="home-section-two-page-content">
                         <?php
-                        $post = setup_postdata( $sectionOnePageID );
+                        setup_postdata( $section_two_page );
                         the_content();
                         wp_reset_postdata();
                         ?>

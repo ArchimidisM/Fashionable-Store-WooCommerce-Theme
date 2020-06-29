@@ -7,6 +7,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <?php
 if (fashionable_store_check_woocommerce()):
     wc_print_notices();
