@@ -85,7 +85,13 @@ jQuery(document).ready(function ($) {
         displace: false
 
     });
+    var html = '<a href="#" class="close-mobile-menu"><span class="fa fa-times"></span></a>';
+    $('.sidr-inner').prepend(html);
 
+    $('.close-mobile-menu').on('click',function(){
+       // Closes the mobile menu
+       $.sidr('close','sidr-mobile');
+    });
     /*
     * Impose some same height
     */

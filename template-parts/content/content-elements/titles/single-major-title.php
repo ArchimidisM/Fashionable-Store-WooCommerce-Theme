@@ -17,7 +17,7 @@
                             </li>
                         <?php endif; ?>
                         <li><?php echo esc_html__('by ', 'fashionable-store'); ?><?php the_author_meta('display_name', $authorID); ?></li>
-                        <li><?php esc_html__('on', 'fashionable-store'); ?><?php echo esc_attr(get_the_time(get_option('date_format'))); ?></li>
+                        <li><?php esc_html__('on', 'fashionable-store'); ?><?php echo esc_html(get_the_time(get_option('date_format'))); ?></li>
                         <li><?php printf(_nx('%1$s Comment', '%1$s Comments', get_comments_number(), 'comments title', 'fashionable-store'), number_format_i18n(get_comments_number())); ?></li>
                     </ul>
                 </div>

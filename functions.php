@@ -116,7 +116,7 @@ function fashionable_store_load_scripts() {
 	wp_register_style( 'izitoast', get_template_directory_uri() . '/assets/css/iziToast/iziToast.min.css', '', '1.0.0', 'all' );
 	wp_register_style( 'slick', get_template_directory_uri() . '/assets/css/slick/slick-dist.css', '', '1.9.0', 'all' );
 	wp_register_style( 'slick-theme', get_template_directory_uri() . '/assets/css/slick/slick-theme-dist.css', '', '1.9.0', 'all' );
-	wp_register_style( 'fashionable-store-main-styles', get_template_directory_uri() . '/assets/css/main-styles.css', rand( 8, 888 ), '', 'all' );
+	wp_register_style( 'fashionable-store-main-styles', get_template_directory_uri() . '/assets/sass/main-styles.min.css', '', '1.3.1', 'all' );
 	wp_register_style( 'fashionable-store-style', get_stylesheet_uri(), '', 'all' );
 
 	wp_enqueue_style( 'spectre' );
@@ -133,7 +133,7 @@ function fashionable_store_load_scripts() {
 
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'plugins', get_template_directory_uri() . '/assets/js/plugins.js', array( 'jquery' ), '', true );
-	wp_enqueue_script( 'fashionable-store-mainjs', get_template_directory_uri() . '/assets/js/ms-dist.js', array( 'jquery' ), '', true );
+	wp_enqueue_script( 'fashionable-store-mainjs', get_template_directory_uri() . '/assets/js/ms.js', array( 'jquery' ), time(), true );
 	wp_localize_script( 'fashionable-store-mainjs', 'fashionable_store_vars', array(
 			'ajax_url'          => admin_url( 'admin-ajax.php' ),
 			'added_to_cart_msg' => esc_html__( 'has been added to your cart', 'fashionable-store' ),
@@ -346,11 +346,6 @@ function fashionable_store_register_required_plugins() {
 			'slug'     => 'one-click-demo-import',
 			'required' => false,
 		),
-		array(
-			'name'     => 'Contact Form 7',
-			'slug'     => 'contact-form-7',
-			'required' => false,
-		),
         array(
 			'name'     => 'Smart Slider 3',
 			'slug'     => 'smart-slider-3',
@@ -457,57 +452,3 @@ function fashionable_store_register_required_plugins() {
 
 	tgmpa( $plugins, $config );
 }
-
-/*
- * Import the demo data
- */
-function fashionable_store_import_demo() {
-	return array(
-		array(
-			'import_file_name'             => esc_html__( 'Demo Import 1', 'fashionable-store' ),
-			'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo_data/fashionablestore.wordpress.2018-06-14.xml',
-			'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo_data/akisthemes.info-demos-fashionable-store-widgets.wie',
-			'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo_data/fashionable-store-export.dat',
-			'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ) . 'demo_data/fashionable-store-demo.png',
-			'import_notice'                => esc_html__( 'After importing this data everything will be in place like the demo.', 'fashionable-store' ),
-			'preview_url'                  => esc_url( 'https://akisthemes.info/demos/fashionable-store' ),
-		),
-		array(
-			'import_file_name'             => esc_html__( 'Demo Import 2', 'fashionable-store' ),
-			'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo_data/fashionablestore.wordpress.2018-06-14.xml',
-			'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo_data/akisthemes.info-demos-fashionable-store-widgets.wie',
-			'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo_data/fashionable-store-export-demo-2.dat',
-			'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ) . 'demo_data/fashionable-store-demo-2.png',
-			'import_notice'                => esc_html__( 'After importing this data everything will be in place like the demo.', 'fashionable-store' ),
-			'preview_url'                  => esc_url( 'https://akisthemes.info/demos/fashionable-store' ),
-		),
-
-	);
-}
-
-add_filter( 'pt-ocdi/import_files', 'fashionable_store_import_demo' );
-/*
- * Import HomePage, Blog and menus
- */
-function fashionable_store_after_demo_import() {
-	$main_menu        = get_term_by( 'name', 'Main Menu', 'nav_menu' );
-	$header_side_menu = get_term_by( 'name', 'Header Side Navigation', 'nav_menu' );
-	$copyright_menu   = get_term_by( 'name', 'Copyright Menu', 'nav_menu' );
-	set_theme_mod( 'nav_menu_locations', array(
-			'main-menu'      => $main_menu->term_id,
-			'copyright-menu' => $copyright_menu->term_id,
-			'side-menu'      => $header_side_menu->term_id,
-		)
-	);
-
-
-	$front_page_id = get_page_by_title( 'HOME' );
-	$blog_page_id  = get_page_by_title( 'Fashion News' );
-
-	update_option( 'show_on_front', 'page' );
-	update_option( 'page_on_front', $front_page_id->ID );
-	update_option( 'page_for_posts', $blog_page_id->ID );
-
-}
-
-add_action( 'pt-ocdi/after_import', 'fashionable_store_after_demo_import' );

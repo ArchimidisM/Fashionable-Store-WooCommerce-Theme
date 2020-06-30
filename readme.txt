@@ -88,44 +88,12 @@ TGM Plugin activation class by Thomas Griffin v 2.6.1
 License: GPLv2
 Source: http://tgmpluginactivation.com/
 
-Image used in screenshot.png: A photo (https://www.pexels.com/photo/architecture-buildings-business-city-325185/)
- by by Aleksandar Pasaric (https://www.pexels.com/u/apasaric/),
+Image used in screenshot.png: A photo (https://stocksnap.io/photo/sneakers-shoes-U20YIXFQBC)
+ by Kristin Hardwick (https://stocksnap.io/author/kristinhardwick),
  licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
 - trianglify.svg image is licensed under the GPLv2 License
 
 
- Demo Data items are licensed under the GPLv2 license
- - fashionable-store-export.dat is licensed under the GPLv2 license
- - fashionable-store-export-2.dat is licensed under the GPLv2 license
- - fashionablestore.wordpress.2018-06-14.xml is licensed under the GPLv2 license
- - akisthemes.info-demos-fashionable-store-widgets.wie is licensed under the GPLv2 license
- - fashionable-store-demo.png & fashionable-store-demo-2.png are both licensed under the GPLv2 License
-
-The following images:
-- A photo (https://stocksnap.io/photo/43NDVUBY6M ) -- by Elliot Chau, licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/women-s-pink-sweatshirt-and-brown-plaid-skirt-794064/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo (https://www.pexels.com/photo/adult-beautiful-elegant-eyewear-291762/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://pixabay.com/en/city-buildings-skyscrapers-towers-1030834/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/colleagues-cooperation-fist-bump-fists-398532/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/marketing-office-working-business-33999/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/box-business-celebrate-celebration-296878/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/adult-beard-boy-casual-220453/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/face-facial-hair-fine-looking-guy-614810/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/closeup-photo-of-woman-with-brown-coat-and-gray-top-733872/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo (https://pixabay.com/en/student-typing-keyboard-text-woman-849825/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://pixabay.com/en/christmas-holiday-yuletide-workshop-3013762/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://pixabay.com/en/ux-prototyping-design-webdesign-788002/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/beautiful-blond-blonde-fashion-206461/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/beautiful-blond-blonde-fashion-206461/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/brown-leather-belt-83403/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/adult-casual-collection-fashion-296881/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/classic-clothes-commerce-fashion-298863/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/2-men-wearing-formal-attire-sitting-beside-each-other-165226/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/bow-elegant-fashion-fashionable-137603/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/photo-of-man-holding-barbell-812745/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-- A photo ( https://www.pexels.com/photo/man-wearing-black-zip-up-jacket-near-beach-smiling-at-the-photo-736716/ ) -- licensed under Creative Commons Zero(http://creativecommons.org/publicdomain/zero/1.0/)
-https://www.freepik.com/free-vector/multicolor-geometrical-shapes-background_1165128.htm#term=abstract&page=2&position=45
 == Notes ==
 
 The main menu supports up to 3 navigation levels.
@@ -133,9 +101,19 @@ The main menu supports up to 3 navigation levels.
 == Change Log ==
 
 = Version 1.3.1 =
-- WooCommerce 4.2.2 compatible
+- [Enhancement]: WooCommerce 4.2.2 compatible
+- [Enhancement]: WordPress 5.4.2 compatible
+- [Enhancement]: Added a close icon to the side navigation in mobile views
+- [Enhancement]: Changed Screenshot
+- [Enhancement]: For small screens the copyright menu is centered.
+- [Enhancement]: For small screens the copyright text is centered.
 - [Fix]: Removed the WooCommerce Text Domain from the theme folder.
-- [Enhancement]: Added a close icon to the side navigation in mobile views.
+- [Fix]: Removed the demo data files.
+- [Fix]: Fixed the translation fashionable-store.pot file.
+- [Fix]: Removed the MenuMenu string from the mobile menu
+- [Fix]: Moved the single product flash sale icon to the left
+- [Fix]: Add a small margin on the right of the add to cart button
+
 
 
 = Version 1.3.0 =

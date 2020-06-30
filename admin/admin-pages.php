@@ -141,9 +141,8 @@ function fashionable_store_register_about_page() {
 						<?php echo esc_html__( '2. Install the demo content.', 'fashionable-store' ); ?>
                     </h4>
                     <p>
-						<?php echo esc_html__( 'All our our themes comes with Predefined demo content. If you want to replicate the demo in a
-                        single click just browse to "Appearance > Import Demo Data" and hit the "Import Demo Data"
-                        Button.', 'fashionable-store' ); ?>
+						<?php echo esc_html__( 'Due to the new guilelines you have to copy the following URL into your browser and follow the steps to install the demo content.It easy very easy."
+                      https://akisthemes.com/docs/fashionable-store-documentation/demo-data-installation/how-to-install-the-demo-data/', 'fashionable-store' ); ?>
                     </p>
 
 

@@ -1212,11 +1212,16 @@ article
     margin: 0
   & a
     color: $copyright-link
+    @include for-smartphone-only
+      font-size: 12px
     &:hover
       color: $copyright-link-hover
   & ul
     list-style-type: none
     margin: 0
+    @include for-smartphone-only
+      padding: 0
+      text-align: center
     & li
       display: inline-block
       margin: 0 8px 0 0
@@ -1236,7 +1241,10 @@ article
     margin: 0
   & .social-menu a
     font-size: $copyright-social-size
-
+.copyright-text
+  @include for-smartphone-only
+    text-align: center
+    font-size: 11px
 /*===================================*/
 /** WooCommerce Styling **/
 /*====================================*/
@@ -1350,7 +1358,7 @@ article
   padding: 0
   font-weight: 400
   font-size: 14px
-  margin: 0
+  margin: 0 8px 0 0
   &:hover
     color: $woocommerce-add-to-cart-hover-color
 
@@ -1381,7 +1389,7 @@ article
 .fs-product-onsale
   position: absolute
   top: 0
-  right: 0
+  left: 0
   margin: 0
   border-radius: 0
   padding: 8px 20px

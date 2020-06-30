@@ -144,7 +144,8 @@ do_action( 'woocommerce_before_cart' ); ?>
                                 <input type="text" name="coupon_code" class="input-text" id="coupon_code" value=""
                                        placeholder="<?php esc_attr_e( 'Coupon code', 'fashionable-store' ); ?>"/>
                                 <button type="submit" class="button inverted-btn" name="apply_coupon"
-                                        value="<?php esc_attr_e( 'Apply coupon', 'fashionable-store' ); ?>"><?php esc_attr_e( 'Apply coupon', 'fashionable-store' ); ?></button>
+                                        value="<?php esc_attr_e( 'Apply coupon', 'fashionable-store' ); ?>">
+                                    <?php esc_html_e( 'Apply coupon', 'fashionable-store' ); ?></button>
 								<?php do_action( 'woocommerce_cart_coupon' ); ?>
                             </div>
 						<?php } ?>

@@ -1,7 +1,7 @@
 <?php
 $copyright_text = get_theme_mod( fashionable_store_get_prefix() . '_copyright_text', '' );
 ?>
-<p>
+<p class="copyright-text">
 	<?php
 	if ( ! empty( $copyright_text ) ):
 		echo esc_html( $copyright_text );
